@@ -1,0 +1,39 @@
+*{
+    margin: 5;
+    padding: 5;
+}
+ul, ol {
+				list-style:none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #000;
+			}			
+.nav > li {
+				float:left;
+			}
+.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px ;
+				display:block;
+			}
+.nav li a:hover {
+				background-color:#434343;
+			}
+.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+.nav li:hover > ul {
+				display:block;
+			}
+.nav li ul li {
+				position:relative;
+			}			
+.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}

@@ -1,0 +1,31 @@
+*{
+    margin: 5;
+    padding: 5;
+}
+h1{
+    color: white;
+    font-size: 50;
+}
+#uno{
+  color: white;
+font-size: 25;
+}
+#dos{
+    float: center;
+    width: 350;
+    height: 200;
+}
+#img{
+    float: right;
+    width: 250;
+    height: 250;
+}
+#img2{
+   float: left;
+    width: 250;
+    height: 250; 
+}
+
+a{
+    color:white;
+}
