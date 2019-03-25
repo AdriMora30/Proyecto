@@ -1,0 +1,25 @@
+h2{
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+}
+
+.contenedor-videos{
+    width: 80%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing:content-box;
+    display:inherit;
+}
+
+.video li{
+    margin: 5px;
+}
+.video{
+    width: 400px;
+    height: 300px;
+
+}
+
+
