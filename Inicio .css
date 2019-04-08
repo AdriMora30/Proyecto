@@ -1,0 +1,44 @@
+h1{
+    color: white;
+}
+
+.Galeria{
+    width: 65%;
+    margin: auto;
+    overflow:hidden;
+}
+
+.Galeria ul{
+    display:inline-flex;
+    padding:0;
+    width: 400%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+
+.Galeria li{
+    width: 90%;
+   list-style: none;
+}
+
+.Galeria img{
+    height: 65%;
+    width: 85%;
+}
+
+@keyframes cambio{
+0%{ margin-left: 0;}
+20%{ margin-left: 0;}
+    
+25%{ margin-left: -100%;} 
+45%{ margin-left: -100%;}
+    
+50%{ margin-left: -200%;} 
+70%{ margin-left: -200%;}
+    
+75%{ margin-left: -300%;} 
+100%{ margin-left: -300%;}     
+}
+
+
